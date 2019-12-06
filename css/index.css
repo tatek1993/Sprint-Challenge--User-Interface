@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/* contains text and boxes */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -96,6 +96,8 @@ p {
     margin: 3% 0%;
 }
 
+/* future and past */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +112,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* boxes */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -178,6 +181,8 @@ p {
     justify-content: center;
 }
 
+/* thats no moon */
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -196,6 +201,8 @@ footer {
     width: 100%;
     background: black;
 }
+
+/* footer */
 
 footer nav {
     width: 60%;
