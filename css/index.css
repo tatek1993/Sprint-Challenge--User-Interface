@@ -217,3 +217,42 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* ABOUT PAGE START */
+
+.aboutTopics{
+    display: flex;
+    FLex-direction: column;
+	flex-wrap: wrap;
+	width: 48%;
+	justify-content: space-between;
+    margin-top: 5%;
+    border-bottom: 2px dashed black;
+	
+}
+.aboutTopics div{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	padding: 2%;
+	margin-bottom: 3%;
+}
+.allTopics{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.learnMore{
+	width: 40%;
+	padding: 8px 20px 8px 20px;
+	border: 2px solid black;
+	border-radius: 9px;
+	background-color: white;
+	text-align: center;
+	margin-top: 4%;
+}
+
+.workTogether{
+    margin: 2% 0% 5%;
+}
