@@ -70,6 +70,24 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* Navigation */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navSpan{
+	width: 80%;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Banner Image */
+
+#bannerImg{
+    width: 100%;
+    margin: 3% 0%;
+}
 
 .top-content {
     display: flex;
@@ -93,6 +111,47 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+/* boxes formatting */
+
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color: cadetblue;
+}
+
+#box4{
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkorchid;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
 }
 
 .middle-content .boxes {
