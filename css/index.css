@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+     margin: 3% 3% 0%; 
 }
 ol, ul {
 	list-style: none;
@@ -65,11 +66,37 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/* contains text and boxes */
 .container {
     width: 800px;
     margin: 0 auto;
 }
+/* Navigation */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.navSpan{
+	width: 70%;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Banner Image */
+.bannerDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#bannerImg{
+    margin: 3% 0%;
+}
+
+/* future and past */
 
 .top-content {
     display: flex;
@@ -85,6 +112,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* boxes */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -93,6 +121,47 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+/* boxes formatting */
+
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color: cadetblue;
+}
+
+#box4{
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkorchid;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
 }
 
 .middle-content .boxes {
@@ -111,6 +180,8 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* thats no moon */
 
 .bottom-content {
     display: flex;
@@ -131,6 +202,8 @@ footer {
     background: black;
 }
 
+/* footer */
+
 footer nav {
     width: 60%;
     display: flex;
@@ -143,4 +216,43 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* ABOUT PAGE START */
+
+.aboutTopics{
+    display: flex;
+    FLex-direction: column;
+	flex-wrap: wrap;
+	width: 48%;
+	justify-content: space-between;
+    margin-top: 5%;
+    border-bottom: 2px dashed black;
+	
+}
+.aboutTopics div{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	padding: 2%;
+	margin-bottom: 3%;
+}
+.allTopics{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.learnMore{
+	width: 40%;
+	padding: 8px 20px 8px 20px;
+	border: 2px solid black;
+	border-radius: 9px;
+	background-color: white;
+	text-align: center;
+	margin-top: 4%;
+}
+
+.workTogether{
+    margin: 2% 0% 5%;
 }
