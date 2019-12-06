@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+     margin: 3% 3% 0%; 
 }
 ol, ul {
 	list-style: none;
@@ -74,18 +75,24 @@ p {
 .navigation{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .navSpan{
-	width: 80%;
+	width: 70%;
 	display: flex;
     justify-content: space-around;
     align-items: center;
 }
 /* Banner Image */
-
-#bannerImg{
+.bannerDiv{
+    display: flex;
+    justify-content: center;
     width: 100%;
+}
+#bannerImg{
     margin: 3% 0%;
 }
 
